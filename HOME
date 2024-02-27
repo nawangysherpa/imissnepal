@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset ="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale =1.0">
+<title>I Miss My Home</title>
+<link rel="stylesheet"
+href="styles.css">
+</head>
+<body>
+<h1>I Miss My Home =</h1>
+<label for ="location">select your homwtown:</label>
+<select id ="location">
+<option value="new-york">New York</option>
+<option value ="paris">Paris</option>
+<!-- Add more options for other locations -->
+</slect>
+<button onclick="playsound()",play Ambient sound</button>
+
+<script>
+function playsound() {
+var location =
+document.getElemenTById('location').Value;
+var audio = new Audio('/audio/' + location + '.mp3');
+audio.play();
+}
+</script>
+</body>
+</html>
+
+
+
+
